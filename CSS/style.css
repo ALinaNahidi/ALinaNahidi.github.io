@@ -135,3 +135,14 @@ span{
 .images:hover .backImg{
     left: 55%;
 }
+
+
+@media (max-width: 768px) {
+    .home{
+    display: block;
+    }
+    .images{
+    align-items: center;
+    margin: 2% 50%;
+    }
+    }

@@ -71,3 +71,18 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+
+
+@media (max-width: 768px) {
+  .container{
+  display: block;
+  }
+  .ContactImage{
+  align-items: center;
+  margin-top: 20% ; 
+  width: 400px;
+  margin-left: 20%;
+  }
+  }
+  
