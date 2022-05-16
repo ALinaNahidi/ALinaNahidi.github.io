@@ -1,0 +1,137 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: white;
+    background-color:white;
+    color: rgb(34, 32, 4);
+    margin: 0% 8%;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 2.0em;
+    letter-spacing: 0;
+    font-family: 'Permanent Marker', cursive;
+    color:  #ec1380;
+}
+
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+} 
+
+
+header a {
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    transition: all 0.3s ease 0s;
+    font-size: 20px;
+}
+
+header a:hover {
+    color: #f16fb8c8;
+}
+
+
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 40px;
+    background-size: cover;
+}
+
+.text{
+    
+    margin-left: 8%;
+    margin-top: 14%;
+
+}
+
+
+.text h1{
+    font-size: 50px;
+    color: #ec1380;
+    margin-bottom: 20px;
+}
+
+
+span{
+
+    color: rgb(226, 108, 128);
+
+
+}
+
+.text p{
+
+    font-size: 20px;
+
+}
+
+.text a{
+    background-color:  #ec1380;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+
+}
+
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: relative;
+    bottom: 0;
+    right: 100px;
+
+}
+
+
+.girl{
+    margin-top: 20px;
+    padding: 80px;
+    width: 600px;
+    height: 600px;
+    background-color: transparent;
+    transform:scaleY(-50px);
+} 
+
+.backImg{
+
+    background-color: transparent;
+    width: 1000px;
+    height: 1000px;
+} 
+
+.images img{
+  
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+} 
+
+
+
+.images:hover .girl{
+    left: 45%;
+}
+
+
+.images:hover .backImg{
+    left: 55%;
+}
