@@ -5,9 +5,12 @@
 }
 
 body{
-
-    background-size: 50%;
-    background-repeat: no-repeat;
+    
+        background-image: url(../images/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+ 
 }
 
 .aboutMeImage{
@@ -38,10 +41,9 @@ body{
 
 .AboutDescription{
     position: absolute;
-    /* margin: -20% 40%; */
     top:600px;
     left:35%;
-  color: black;
+    color: black;
 }
 
 
@@ -88,3 +90,15 @@ p{
     background-color: plum;
 }
 
+@media (max-width: 768px) {
+    .container{
+    align-items: center;
+    }
+    .aboutBg{
+    visibility: hidden;
+    }
+    .AboutDescription{
+        color: black;
+    }
+    }
+    
